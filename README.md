@@ -21,25 +21,22 @@ The system dynamically serves unique dashboards based on the logged-in user's or
 ### 1. Secure Login Portal
 ![Login Portal](screenshots/login_portal.png)
 
-### Management Dashboards
-#### 2. Branch Manager Dashboard
+### 2. Branch Manager Dashboard
 ![Manager Dashboard](screenshots/manager_dashboard.png)
 
-#### 3. Sales Supervisor Dashboard
+### 3. Sales Supervisor Dashboard
 ![Supervisor Dashboard](screenshots/supervisor_dashboard.png)
 
-### Field Force Dashboards
-#### 4. Team Leader Dashboard
+### 4. Team Leader Dashboard
 ![Team Leader Dashboard](screenshots/team_leader_dashboard.png)
 
-#### 5. Sales Agent Dashboard
+### 5. Sales Agent Dashboard
 ![Agent Dashboard](screenshots/agent_dashboard.png)
 
-#### 6. Advisor Dashboard
+### 6. Advisor Dashboard
 ![Agent Dashboard](screenshots/advisor_dashboard.png)
 
-### Operations Dashboard
-#### 7. Branch Cashier (Data Entry)
+### 7. Branch Cashier (Data Entry)
 ![Cashier Dashboard](screenshots/cashier_dashboard.png)
 
 ## Setup & Installation
