@@ -1,31 +1,34 @@
-# Sales Performance Evaluation System (SPES) 📊
+# Life Backup - Sales Performance Evaluation System (SPES)
 
-A centralized, web-based database application developed for "Life Backup" insurance company. This system is designed to evaluate sales force performance through real-time dashboards and seamless data entry points.
+A centralized, web-based database application developed for "Life Backup" insurance company to monitor and evaluate sales force performance in real-time. This system utilizes **PHP**, **AJAX**, and **MySQL** to provide a seamless, non-refreshing user experience across multiple administrative roles.
 
-## 🌟 Key Features
-* **Seamless AJAX Login:** A secure login system that redirects users to their respective dashboards without full page reloads.
-* **Real-time Performance Dashboards:** Dynamic visualizations for Branch Managers, Supervisors, and Team Leaders to track recruitment and sales targets.
-* **Centralized Data Entry:** A dedicated module for cashiers to input premium collection and invoice details.
-* **Automated Performance Calculation:** Metrics calculated based on the percentage of monthly targets completed by individual agents and teams.
+## Key Features
+* **Role-Based Access Control (RBAC):** Specialized login portals for Branch Managers, Supervisors, Team Leaders, Sales Agents, and Cashiers, each with unique access permissions.
+* **AJAX-Powered Authentication:** A secure login system that authenticates and redirects users to their specific dashboards without full page reloads.
+* **Dynamic Performance Tracking:** Real-time dashboards featuring progress bars to track recruitment targets, new policy issuances, and premium collection metrics.
+* **Automated Data Entry Point:** A dedicated interface for Cashiers to input sales invoices and premium collections directly into the centralized database.
+* **Advanced Target Logic:** Metrics are automatically calculated as a percentage of monthly targets completed, providing instant performance feedback.
 
-## 🛠️ Tech Stack
-* **Core Logic:** PHP & AJAX (for real-time updates without page refreshing).
-* **Database:** MySQL (Relational schema for sales agents, team leaders, and invoices).
+## Tech Stack
+* **Backend:** PHP (Core logic and session management).
+* **Asynchronous Logic:** AJAX (for data fetching and non-refreshing UI updates).
+* **Database:** MySQL (Relational schema involving agents, supervisors, and invoices).
 * **Frontend:** HTML5, CSS3, and JavaScript.
 
-## 📸 Interface Preview
-### Secure Login Portal
+## Interface Preview
+### Modern Login Portal
 ![Login Portal](screenshots/login_portal.png)
-*Modern, clean login interface for all sales force members.*
+*Role-based secure entry point featuring a clean, responsive design.*
 
-### Manager Dashboard
+### Manager Performance Dashboard
 ![Manager Dashboard](screenshots/manager_dashboard.png)
-*Real-time tracking of recruitment targets and premium collection.*
+*High-level overview of team recruitment and premium collection progress.*
 
-## 🚀 Setup & Installation
-1.  Import the `create logins.sql` script into your MySQL database.
-2.  Deploy the PHP files (`login.php`, `page.php`) to your local WAMP/XAMPP server.
-3.  Access the portal via `localhost/spesv3/page.php#login`.
+## Setup & Installation
+1. **Initialize Database:** Import the `create logins.sql` script into your MySQL environment to set up the necessary role-based accounts and tables.
+2. **Server Deployment:** Deploy the project folder to your local server (WAMP/XAMPP).
+3. **Configuration:** Ensure your database credentials match in the connection logic.
+4. **Access Portal:** Navigate to `localhost/spesv3/page.php` in your browser.
 
 ---
-*Developed for the Web Technology and Applications module as part of the "100 Startups Program"*
+*Developed by Thilina Sandakelum Wijesinghe for the Web Technology and Applications module | Department of Software Technology at University of Vocational Technology (UoVT).*
